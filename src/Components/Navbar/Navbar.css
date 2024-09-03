@@ -1,0 +1,22 @@
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0.125em;
+  }
+
+  .nav-link{
+    color: white;
+    flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 0px 10px;
+  font-weight: 400;
+    font-size: 18px;
+  }
+  .logo{
+    color: #f8a541 !important;
+    font-size: 25px;
+    font-weight: 600;
+    
+   
+  }

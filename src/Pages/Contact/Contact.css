@@ -1,0 +1,147 @@
+.contactContainer{
+  background-image: url(../../img/4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ align-items: center;
+}
+.contact-heading{
+  color: #f8a541;
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+.contact-form-container {
+    max-width: 600px;
+   
+    height: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  .cl{
+    margin-top: 150px;
+  }
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 90%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .contact-form-container {
+      padding: 1.5rem;
+    }
+  
+    .contact-form h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    .form-group input,
+    .form-group textarea {
+      padding: 0.5rem;
+      font-size: 0.9rem;
+    }
+  
+    button[type="submit"] {
+      padding: 0.65rem;
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-form-container {
+      padding: 1rem;
+    }
+  
+    .contact-form h2 {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+  
+    .form-group input,
+    .form-group textarea {
+      padding: 0.5rem;
+      font-size: 0.8rem;
+    }
+  
+    button[type="submit"] {
+      padding: 0.55rem;
+      font-size: 0.8rem;
+    }
+  }
+  .card-{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #f8a541;
+   
+  }
+  .icon-{
+    font-size: 40px;
+    margin: 10px;
+    margin-left: 20px;
+    color: #f8a541;
+  }
+  .card-p {
+    padding: 22px;
+    font-size: 20px;
+  }
