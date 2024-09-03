@@ -1,5 +1,6 @@
 import React ,{useState , useEffect} from 'react'
 import './Contact.css'
+import emailjs from '@emailjs/browser';
 const Contact = () => {
     const [formData, setFormData] = useState({
         name: '',
@@ -17,10 +18,10 @@ const Contact = () => {
         e.preventDefault();
     
         emailjs.send(
-          'YOUR_SERVICE_ID',        // Replace with your EmailJS service ID
-          'YOUR_TEMPLATE_ID',       // Replace with your EmailJS template ID
+          'service_7bimh0l',        // Replace with your EmailJS service ID
+          'template_2gx3av9',       // Replace with your EmailJS template ID
           formData,
-          'YOUR_USER_ID'            // Replace with your EmailJS user ID
+          'tzMLxrPQ2CwSxxYpp'            // Replace with your EmailJS user ID
         ).then((response) => {
             alert(`Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nMessage: ${formData.message}`);
             console.log('SUCCESS!', response.status, response.text);
@@ -40,7 +41,7 @@ const Contact = () => {
 useEffect(function () {
   AOS.init(
     {
-      duration: 1000
+      duration: 1500
     }
   );
 }, []);
